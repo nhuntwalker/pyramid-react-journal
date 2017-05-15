@@ -18,7 +18,7 @@
     <div class="jumbotron">
       <h1>401 Python Learning Journal</h1>
       <p>This online learning journal is for students of the Code Fellows 401 Python Course. This course is offered at the Seattle campus.</p>
-      <p><a class="btn btn-primary btn-lg" href="https://codefellows.org/locations/learn-to-code-in-seattle" role="button">Learn more</a></p>
+      <p><a class="btn btn-primary btn-lg" href="{{ request.login_url('github') }}" role="button">Learn more</a></p>
     </div>
   {% endif %}
 </div>
